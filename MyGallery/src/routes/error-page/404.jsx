@@ -5,9 +5,9 @@ export default function ErrorPage() {
     console.error(error);
 
     return (
-        <div id="error-page">
+        <div className={'error-page'}>
             <h1>Ой... тут пусто....</h1>
-            <p>Простите, я еще не придумал что тут должно быть =) </p>
+            <p>Прости, я еще не придумал что тут должно быть =) </p>
             <p>
                 <i>{error.statusText || error.message}</i>
             </p>

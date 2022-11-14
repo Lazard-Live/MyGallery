@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import './css/style.scss';
+import './lib.scss';
+
+import Root from './routes/root/root.jsx';
 
 // Страницы
-import Root from './routes/root';
-import ErrorPage from './routes/error-page.jsx';
-import About from './routes/about.jsx';
-import Contacts from './routes/contacts.jsx';
-import Works from './routes/works.jsx';
+import About from './routes/about/about.jsx';
+import Contacts from './routes/contacts/contacts.jsx';
+import Works from './routes/works/works.jsx';
+import ErrorPage from './routes/error-page/404.jsx';
 
 const router = createBrowserRouter([
     {

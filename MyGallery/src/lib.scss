@@ -1,0 +1,12 @@
+// глобальные стили
+@import 'global/fonts';
+@import 'global/variables'; //переменные
+@import 'global/common';
+
+// стили компонентов
+@import 'component/menu/menu';
+
+// стили страниц
+@import 'routes/root/root';
+@import 'routes/about/about';
+@import 'routes/error-page/404';

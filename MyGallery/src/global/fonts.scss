@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Aqum';
+    src: url('../fonts/Aqum/Aqum two Classic.woff2') format('woff2'),
+        url('../fonts/Aqum/Aqum two Classic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trap';
+    src: url('../fonts/Trap/Trap-Bold.woff2') format('woff2'), url('../fonts/Trap/Trap-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trap';
+    src: url('../fonts/Trap/Trap-Regular.woff2') format('woff2'), url('../fonts/Trap/Trap-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trap';
+    src: url('../fonts/Trap/Trap-Light.woff2') format('woff2'), url('../fonts/Trap/Trap-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
