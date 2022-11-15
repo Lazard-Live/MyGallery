@@ -1,24 +1,24 @@
 import { Link } from 'react-router-dom';
 import { Component } from 'react';
 
-export class Menu extends Component {
+export class Header extends Component {
     render() {
         return (
-            <div className={'menu'}>
+            <div className={'header'}>
                 <nav>
-                    <ul className={'menu_list'}>
-                        <li className={'menu_item'}>
-                            <Link to={`about`} className={'menu_link'}>
+                    <ul className={'header_list'}>
+                        <li className={'header_item'}>
+                            <Link to={`about`} className={'header_link'}>
                                 About me
                             </Link>
                         </li>
-                        <li className={'menu_item'}>
-                            <Link to={`works`} className={'menu_link'}>
+                        <li className={'header_item'}>
+                            <Link to={`works`} className={'header_link'}>
                                 Works
                             </Link>
                         </li>
-                        <li className={'menu_item'}>
-                            <Link to={`contacts`} className={'menu_link'}>
+                        <li className={'header_item'}>
+                            <Link to={`contacts`} className={'header_link'}>
                                 Contacts
                             </Link>
                         </li>

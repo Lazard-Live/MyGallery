@@ -1,9 +1,11 @@
-$font-primary: 'Trap';
-$font-second: 'Aqum';
+$font-primary: 'Aqum', sans-serif;
 
-$color-text: #374051;
-$color-menu-bg: #e9e8b8;
-$color-menu-link-hover: #f3c20d;
+$color-text: #1E2B39;
+$color-bg: #BEC4C6;
+$color-bg-hover: #F4F8F9;
 $color-about-bg: #c8c8c8;
-$color-about-img-shadow: #5fc0ac;
+$color-about-img-shadow: #36C0F1;
 
+%transition {
+  transition: 0.2s ease;
+}

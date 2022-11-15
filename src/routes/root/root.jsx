@@ -1,13 +1,13 @@
-import { Outlet } from 'react-router-dom';
-import { Menu } from '../../component/menu/menu.jsx';
+import { Header } from '../../component/header/header.jsx';
+import { Main } from '../../component/main/main.jsx';
+import { Footer } from '../../component/footer/footer.jsx';
 
 export default function Root() {
     return (
         <>
-            <Menu />
-            <div id="detail">
-                <Outlet />
-            </div>
+            <Header />
+            <Main />
+            <Footer />
         </>
     );
 }

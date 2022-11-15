@@ -4,7 +4,9 @@
 @import 'global/common';
 
 // стили компонентов
-@import 'component/menu/menu';
+@import 'component/header/header';
+@import "component/main/main";
+@import "component/footer/footer";
 
 // стили страниц
 @import 'routes/root/root';

@@ -1,8 +1,7 @@
 .about {
-    padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    max-width: 800px;
 
     & div {
         display: flex;
@@ -30,5 +29,10 @@
         font-weight: 700;
         margin: 0;
         line-height: 1.2;
+        text-align: center;
+    }
+
+    &_text {
+        text-align: justify;
     }
 }

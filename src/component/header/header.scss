@@ -1,6 +1,6 @@
-.menu {
+.header {
     width: 100%;
-    background-color: $color-menu-bg;
+    background: $color-bg;
     display: inline-flex;
     flex-direction: column;
 
@@ -11,6 +11,7 @@
 
     &_list {
         display: inline-flex;
+        gap: 1rem;
         justify-content: center;
         width: 100%;
         padding: 0;
@@ -23,14 +24,15 @@
     }
 
     &_link {
+        @extend %transition;
         overflow: hidden;
-        padding: 4px 8px 2px;
+        padding: 4px 8px;
         border-radius: 8px;
         color: inherit;
         text-decoration: none;
 
         &:hover {
-            background: $color-menu-link-hover;
+            background: $color-bg-hover;
         }
     }
 }
