@@ -1,4 +1,5 @@
 {
+    "homepage": "https://lazard-live.github.io/MyGallery/",
     "name": "mygallery",
     "private": true,
     "version": "0.0.1",
@@ -6,7 +7,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
     },
     "dependencies": {
         "localforage": "^1.10.0",
