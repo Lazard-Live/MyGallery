@@ -11,6 +11,7 @@ import About from './routes/about/about.jsx';
 import Contacts from './routes/contacts/contacts.jsx';
 import Works from './routes/works/works.jsx';
 import ErrorPage from './routes/error-page/404.jsx';
+import Uikit from "./routes/uikit/uikit";
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
             {
                 path: '/contacts',
                 element: <Contacts />,
+            },
+            {
+                path: '/uikit',
+                element: <Uikit />,
             },
         ],
     },
