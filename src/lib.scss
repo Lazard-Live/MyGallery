@@ -2,6 +2,7 @@
 @import 'global/fonts';
 @import 'global/variables'; //переменные
 @import 'global/common';
+@import "global/grid";
 
 // стили компонентов
 @import 'component/header/header';
@@ -13,3 +14,4 @@
 @import 'routes/about/about';
 @import 'routes/error-page/404';
 @import 'routes/uikit/uikit';
+@import "routes/works/works";
