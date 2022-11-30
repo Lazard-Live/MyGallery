@@ -1,11 +1,36 @@
 $font-primary: 'Aqum', sans-serif;
 
-$color-text: #1E2B39;
-$color-bg: #BEC4C6;
-$color-bg-hover: #F4F8F9;
+$color-text: #1e2b39;
+$color-bg: #bec4c6;
+$color-bg-hover: #f4f8f9;
 $color-about-bg: #c8c8c8;
-$color-about-img-shadow: #36C0F1;
+$color-about-img-shadow: #36c0f1;
+
+$point-sm: 576px;
+$point-md: 768px;
+$point-lg: 992px;
+$point-xl: 1200px;
 
 %transition {
-  transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+@mixin screen-up($point) {
+    $is-sm: $point == sm;
+    $is-md: $point == md;
+    $is-lg: $point == lg;
+
+    @media (min-width: if($is-sm, $point-sm, if($is-md, $point-md, if($is-lg, $point-lg, $point-xl)))) {
+        @content;
+    }
+}
+
+@mixin screen-down($point) {
+    $is-sm: $point == sm;
+    $is-md: $point == md;
+    $is-lg: $point == lg;
+
+    @media (max-width: if($is-sm, $point-sm - 1px, if($is-md, $point-md - 1px, if($is-lg, $point-lg - 1px, $point-xl - 1px)))) {
+        @content;
+    }
 }
