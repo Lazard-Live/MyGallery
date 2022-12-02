@@ -58,29 +58,36 @@ $columns: 12;
         width: calc(100% / $columns * $i);
         flex: 0 0 calc(100% / $columns * $i);
     }
-
-    @include screen-up(sm) {
+}
+@include screen-up(sm) {
+    @for $i from 1 through $columns {
         .col-sm-#{$i} {
             width: calc(100% / $columns * $i);
             flex: 0 0 calc(100% / $columns * $i);
         }
     }
+}
 
-    @include screen-up(md) {
+@include screen-up(md) {
+    @for $i from 1 through $columns {
         .col-md-#{$i} {
             width: calc(100% / $columns * $i);
             flex: 0 0 calc(100% / $columns * $i);
         }
     }
+}
 
-    @include screen-up(lg) {
+@include screen-up(lg) {
+    @for $i from 1 through $columns {
         .col-lg-#{$i} {
             width: calc(100% / $columns * $i);
             flex: 0 0 calc(100% / $columns * $i);
         }
     }
+}
 
-    @include screen-up(xl) {
+@include screen-up(xl) {
+    @for $i from 1 through $columns {
         .col-xl-#{$i} {
             width: calc(100% / $columns * $i);
             flex: 0 0 calc(100% / $columns * $i);
