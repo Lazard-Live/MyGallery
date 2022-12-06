@@ -4,28 +4,26 @@
     flex-direction: column;
     max-width: 800px;
 
-    & div {
+    &__info {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 0.5rem;
         margin: 1rem 0;
     }
 
-    &_img-wrap {
-        align-items: center;
-    }
-
-    & img {
+    &__img {
         width: 14rem;
         height: 14rem;
         background: $color-about-bg;
+        border: 1px solid $color-text;
         border-radius: 50%;
         object-fit: cover;
-        box-shadow: $color-about-img-shadow 4px 2px;
+        box-shadow: $color-about-img-shadow 8px 4px;
     }
 
-    &_title {
+    &__title {
         font-size: 2rem;
         font-weight: 700;
         margin: 0;
@@ -33,7 +31,7 @@
         text-align: center;
     }
 
-    &_text {
+    &__text {
         text-align: justify;
     }
 }
