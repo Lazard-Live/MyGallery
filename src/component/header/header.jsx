@@ -9,17 +9,17 @@ export class Header extends Component {
                     <ul className={'header_list'}>
                         <li className={'header_item'}>
                             <Link to={`about`} className={'header_link'}>
-                                About me
+                                Обо мне
                             </Link>
                         </li>
                         <li className={'header_item'}>
                             <Link to={`works`} className={'header_link'}>
-                                Works
+                                Мои работы
                             </Link>
                         </li>
                         <li className={'header_item'}>
                             <Link to={`contacts`} className={'header_link'}>
-                                Contacts
+                                Контакты
                             </Link>
                         </li>
                     </ul>

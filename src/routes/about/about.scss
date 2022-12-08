@@ -20,7 +20,7 @@
         border: 1px solid $color-text;
         border-radius: 50%;
         object-fit: cover;
-        box-shadow: $color-about-img-shadow 8px 4px;
+        box-shadow: $color-about-img-shadow -8px 4px;
     }
 
     &__title {

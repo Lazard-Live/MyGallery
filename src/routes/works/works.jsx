@@ -54,10 +54,10 @@ export default function Works() {
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work1.title}</div>
                         <div className="works__text">{DataWorks.Work1.text}</div>
-                        <a className="works__link" href={DataWorks.Work1.git}>
+                        <a className="works__link" href={DataWorks.Work1.git} target="_blank" rel="noopener noreferrer">
                             Git
                         </a>
-                        <a className="works__link" href={DataWorks.Work1.page}>
+                        <a className="works__link" href={DataWorks.Work1.page} target="_blank" rel="noopener noreferrer">
                             Page
                         </a>
                     </div>
@@ -73,10 +73,10 @@ export default function Works() {
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work2.title}</div>
                         <div className="works__text">{DataWorks.Work2.text}</div>
-                        <a className="works__link" href={DataWorks.Work2.git}>
+                        <a className="works__link" href={DataWorks.Work2.git} target="_blank" rel="noopener noreferrer">
                             Git
                         </a>
-                        <a className="works__link" href={DataWorks.Work2.page}>
+                        <a className="works__link" href={DataWorks.Work2.page} target="_blank" rel="noopener noreferrer">
                             Page
                         </a>
                     </div>
@@ -92,10 +92,10 @@ export default function Works() {
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work3.title}</div>
                         <div className="works__text">{DataWorks.Work3.text}</div>
-                        <a className="works__link" href={DataWorks.Work3.git}>
+                        <a className="works__link" href={DataWorks.Work3.git} target="_blank" rel="noopener noreferrer">
                             Git
                         </a>
-                        <a className="works__link" href={DataWorks.Work3.page}>
+                        <a className="works__link" href={DataWorks.Work3.page} target="_blank" rel="noopener noreferrer">
                             Page
                         </a>
                     </div>
@@ -111,10 +111,10 @@ export default function Works() {
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work4.title}</div>
                         <div className="works__text">{DataWorks.Work4.text}</div>
-                        <a className="works__link" href={DataWorks.Work4.git}>
+                        <a className="works__link" href={DataWorks.Work4.git} target="_blank" rel="noopener noreferrer">
                             Git
                         </a>
-                        <a className="works__link" href={DataWorks.Work4.page}>
+                        <a className="works__link" href={DataWorks.Work4.page} target="_blank" rel="noopener noreferrer">
                             Page
                         </a>
                     </div>
@@ -130,10 +130,10 @@ export default function Works() {
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work5.title}</div>
                         <div className="works__text">{DataWorks.Work5.text}</div>
-                        <a className="works__link" href={DataWorks.Work5.git}>
+                        <a className="works__link" href={DataWorks.Work5.git} target="_blank" rel="noopener noreferrer">
                             Git
                         </a>
-                        <a className="works__link" href={DataWorks.Work5.page}>
+                        <a className="works__link" href={DataWorks.Work5.page} target="_blank" rel="noopener noreferrer">
                             Page
                         </a>
                     </div>

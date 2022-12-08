@@ -9,19 +9,20 @@
     padding: 1rem 2rem;
     background: $color-bg;
 
-    &_copyring {
-    }
-
     &_text {
         display: flex;
         align-items: center;
-        font-family: 'Aqum', sans-serif;
+        font-family: $font-primary;
         font-size: 12px;
     }
 
     &_icon-wrap {
-        transform: rotate(-20deg);
+        transform: rotate(20deg);
         width: 30px;
         height: 30px;
+
+        &__rotate-reverse {
+            transform: rotate(-20deg);
+        }
     }
 }
