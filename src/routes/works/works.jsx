@@ -4,7 +4,7 @@ export default function Works() {
             url: './img/works/1.jpg',
             alt: 'StartUp',
             title: 'StartUp',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic pariatur ratione soluta, tenetur voluptates.',
+            text: '',
             git: 'https://github.com/Lazard-Live/Startup',
             page: 'https://lazard-live.github.io/Startup/'
         },
@@ -12,7 +12,7 @@ export default function Works() {
             url: './img/works/2.jpg',
             alt: 'Интенсив по вёрстке "Ботаника"',
             title: 'Магазин цветов "Ботаника"',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic pariatur ratione soluta, tenetur voluptates.',
+            text: '',
             git: 'https://github.com/Lazard-Live/Edu2021',
             page: 'https://lazard-live.github.io/Edu2021-page/'
         },
@@ -20,7 +20,7 @@ export default function Works() {
             url: './img/works/3.jpg',
             alt: 'Учебный проект "Sedona"',
             title: 'Учебный проект "Sedona"',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic pariatur ratione soluta, tenetur voluptates.',
+            text: '',
             git: 'https://github.com/Lazard-Live/edu-htmlacademy-sedona',
             page: 'https://lazard-live.github.io/edu-htmlacademy-sedona'
         },
@@ -28,7 +28,7 @@ export default function Works() {
             url: './img/works/4.jpg',
             alt: 'ToDo на Vue',
             title: 'ToDo (изучение Vue)',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic pariatur ratione soluta, tenetur voluptates.',
+            text: '',
             git: 'https://github.com/Lazard-Live/mvue3edu',
             page: 'https://lazard-live.github.io/mvue3edu/'
         },
@@ -36,7 +36,7 @@ export default function Works() {
             url: './img/works/5.jpg',
             alt: 'Интенсив Angular iTLogia',
             title: 'Cars',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic pariatur ratione soluta, tenetur voluptates.',
+            text: '',
             git: 'https://github.com/Lazard-Live/itlogia_4_angular',
             page: 'https://lazard-live.github.io/cars-app/'
         },
