@@ -69,7 +69,6 @@ export default function Works() {
                     </div>
                 </div>
                 <div className="works__col col-12 col-lg-6">
-                    {' '}
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work2.title}</div>
                         <div className="works__text">{DataWorks.Work2.text}</div>
@@ -88,7 +87,6 @@ export default function Works() {
                     </div>
                 </div>
                 <div className="works__col col-12 col-lg-6">
-                    {' '}
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work3.title}</div>
                         <div className="works__text">{DataWorks.Work3.text}</div>
@@ -107,7 +105,6 @@ export default function Works() {
                     </div>
                 </div>
                 <div className="works__col col-12 col-lg-6">
-                    {' '}
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work4.title}</div>
                         <div className="works__text">{DataWorks.Work4.text}</div>
@@ -126,7 +123,6 @@ export default function Works() {
                     </div>
                 </div>
                 <div className="works__col col-12 col-lg-6">
-                    {' '}
                     <div className="works__info">
                         <div className="works__title">{DataWorks.Work5.title}</div>
                         <div className="works__text">{DataWorks.Work5.text}</div>
